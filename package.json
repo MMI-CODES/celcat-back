@@ -5,7 +5,9 @@
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --exec node --loader ts-node/esm src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -21,13 +23,17 @@
   },
   "homepage": "https://github.com/okayhappex/celcat-back#readme",
   "dependencies": {
-    "celcat": "1.1.1",
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "ical": "^0.8.0",
+    "node-cache": "^5.1.2"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
-    "typescript": "^5.9.3"
+    "@types/ical": "^0.8.3",
+    "typescript": "^5.9.3",
+    "ts-node": "^10.9.2",
+    "nodemon": "^3.1.4"
   }
 }

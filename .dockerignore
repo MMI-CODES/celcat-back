@@ -1,0 +1,12 @@
+# Ignorer les modules Node.js locaux, ils seront installés dans le conteneur
+node_modules
+
+# Ignorer le dossier de compilation TypeScript, il sera généré dans le conteneur
+dist
+
+# Ignorer les fichiers de configuration de l'environnement local
+.env
+
+# Ignorer les fichiers Git
+.git
+.gitignore
