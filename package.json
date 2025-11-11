@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/okayhappex/celcat-back#readme",
   "dependencies": {
-    "celcat": "^1.1.1",
+    "celcat": "1.1.1",
     "cors": "^2.8.5",
     "express": "^5.1.0"
   },
